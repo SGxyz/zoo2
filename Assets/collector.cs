@@ -27,6 +27,7 @@ public class collector : MonoBehaviour {
             GameObject[] talkObjects;
             cageObjects = GameObject.FindGameObjectsWithTag("cage");
             talkObjects = GameObject.FindGameObjectsWithTag("talk");
+            postTalkObjects = GameObject.FindGameObjectsWithTag("postTalk");
 
             for (var i = 0; i < cageObjects.Length; i++)
             {
